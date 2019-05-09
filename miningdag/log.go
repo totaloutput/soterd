@@ -6,7 +6,7 @@
 package miningdag
 
 import (
-	"github.com/soteria-dag/soterd/soterlog"
+	"github.com/totaloutput/soterd/soterlog"
 )
 
 // log is a logger that is initialized with no output filters.  This

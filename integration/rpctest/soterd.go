@@ -45,7 +45,7 @@ func soterdExecutablePath() (string, error) {
 		return "", err
 	}
 
-	// Determine import path of this package. Not necessarily soteria-dag/soterd if
+	// Determine import path of this package. Not necessarily totaloutput/soterd if
 	// this is a forked repo.
 	_, rpctestDir, _, ok := runtime.Caller(0)
 	if !ok {
@@ -59,14 +59,14 @@ func soterdExecutablePath() (string, error) {
 
 	// The Package type returned by build.ImportDir() may have a ImportPath of "." when
 	// the dir parameter is a package path for a `go mod` dependency (like this:
-	// /home/me/go/pkg/mod/github.com/soteria-dag/soterd@v0.0.0-20190411003429-eb03f84f0e80
+	// /home/me/go/pkg/mod/github.com/totaloutput/soterd@v0.0.0-20190411003429-eb03f84f0e80
 	// ).
 	// If that's the case, we'll just use the relative path determined from the call to `runtime.Caller()`.
 	//
 	// This behaviour doesn't occur when a `replace` statement is used in the go.mod file, that has
 	// dependencies resolved through the filesystem instead of a remote path like github.com. In that case
 	// the ImportPath field would be the same as the dir parameter, like this:
-	// /home/me/src/github.com/soteria-dag/soterd
+	// /home/me/src/github.com/totaloutput/soterd
 	//
 	var pkgPath string
 	if soterdPkg.ImportPath == "." {

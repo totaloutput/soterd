@@ -14,7 +14,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
 )
 
 // genesisCoinbaseTx is the coinbase transaction for the genesis blocks for

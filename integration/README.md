@@ -13,12 +13,12 @@ The tests are **not** normally run when targeting all soterd tests (`go test -v 
 
 To target the integration tests, specify the `rpctest` build tag when calling `go test`:
 ```shell
-go test -v -tags rpctest github.com/soteria-dag/soterd/integration
+go test -v -tags rpctest github.com/totaloutput/soterd/integration
 ```
 
 If there's an integration test that takes a particularly long amount of time to complete (depending on the system running the test), you can ask `go test` to allow it more time to complete than the current default of 10 minutes:
 ```shell
-go test -v -timeout 1h -tags rpctest github.com/soteria-dag/soterd/integration
+go test -v -timeout 1h -tags rpctest github.com/totaloutput/soterd/integration
 ```
 
 ## Other integration test build tags

@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/soteria-dag/soterd/soterlog"
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/soterlog"
+	"github.com/totaloutput/soterd/soterutil"
 )
 
 // blockProgressLogger provides periodic logging for other services in order

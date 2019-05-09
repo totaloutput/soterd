@@ -11,9 +11,9 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/soteria-dag/soterd/txscript"
-	"github.com/soteria-dag/soterd/wire"
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/txscript"
+	"github.com/totaloutput/soterd/wire"
+	"github.com/totaloutput/soterd/soterutil"
 )
 
 // txValidateItem holds a transaction along with which input to validate.

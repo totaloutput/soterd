@@ -8,8 +8,8 @@ package main
 import (
 	"time"
 
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/database"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/database"
 )
 
 // headersCmd defines the configuration options for the loadheaders command.

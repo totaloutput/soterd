@@ -72,7 +72,7 @@ func round(f float64) Amount {
 // NewAmount is for specifically for converting SOTO to nanoSoter.
 // For creating a new Amount with an int64 value which denotes a quantity of nanoSoter,
 // do a simple type conversion from type int64 to Amount.
-// See GoDoc for example: http://godoc.org/github.com/soteria-dag/soterd/soterutil#example-Amount
+// See GoDoc for example: http://godoc.org/github.com/totaloutput/soterd/soterutil#example-Amount
 func NewAmount(f float64) (Amount, error) {
 	// The amount is only considered invalid if it cannot be represented
 	// as an integer type.  This may happen if f is NaN or +-Infinity.

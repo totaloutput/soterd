@@ -10,10 +10,10 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/miningdag"
-	"github.com/soteria-dag/soterd/soterutil"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/miningdag"
+	"github.com/totaloutput/soterd/soterutil"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // newTestFeeEstimator creates a feeEstimator with some different parameters

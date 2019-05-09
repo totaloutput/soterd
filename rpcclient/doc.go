@@ -9,7 +9,7 @@ Package rpcclient implements a websocket-enabled soter JSON-RPC client.
 Overview
 
 This client provides an interface to soterd's JSON-RPC API. It has also been
-tested with soterwallet (https://github.com/soteria-dag/soterwallet).
+tested with soterwallet (https://github.com/soterium/soterwallet).
 
 In addition to the standard HTTP POST JSON-RPC API, soterd provides a websocket
 interface that is more efficient than the standard HTTP POST method of accessing RPC.

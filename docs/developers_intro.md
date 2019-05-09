@@ -21,7 +21,7 @@ Soterd maintains a transaction pool, and relays individual transactions that hav
 
 ## Excluded functionality
 
-Like btcd, soterd does not include wallet functionality. [soterwallet](https://github.com/soteria-dag/soterwallet) is intended for making or receive payments with soterd, however it is still being updated from the [btcwallet](https://github.com/btcsuite/btcwallet) fork to be compatible with soterd. In the meantime, transactions can be demonstrated with the [gentx](https://github.com/soteria-dag/soter-tools/cmd/gentx/README.md) command. 
+Like btcd, soterd does not include wallet functionality. [soterwallet](https://github.com/soterium/soterwallet) is intended for making or receive payments with soterd, however it is still being updated from the [btcwallet](https://github.com/btcsuite/btcwallet) fork to be compatible with soterd. In the meantime, transactions can be demonstrated with the [gentx](https://github.com/soterium/soter-tools/cmd/gentx/README.md) command. 
 
 
 ## Installation
@@ -58,20 +58,20 @@ Refer to the [Getting started with Docker](getting_started_docker.md) document f
     `~/goprojects` to avoid write permission issues. It is also recommended to add
     `$GOPATH/bin` to your `PATH` at this point.
 
-3. If soteria-dag projects _aren't publicly available yet_, you may need to redirect git requests using https to use ssh instead. This allows `go mod` and related package-management tools to work without prompting you for github credentials.
+3. If soterium projects _aren't publicly available yet_, you may need to redirect git requests using https to use ssh instead. This allows `go mod` and related package-management tools to work without prompting you for github credentials.
 
     ```bash
     # Add this section to your ~/.gitconfig file
 
-    [url "ssh://git@github.com/soteria-dag/"]
-        insteadOf = https://github.com/soteria-dag/
+    [url "ssh://git@github.com/soterium/"]
+        insteadOf = https://github.com/soterium/
     ```
 
 4. Run the following commands to obtain soterd, all dependencies, and install it:
 
     ```bash
-    $ git clone https://github.com/soteria-dag/soterd $GOPATH/src/github.com/soteria-dag/soterd
-    $ cd $GOPATH/src/github.com/soteria-dag/soterd
+    $ git clone https://github.com/totaloutput/soterd $GOPATH/src/github.com/totaloutput/soterd
+    $ cd $GOPATH/src/github.com/totaloutput/soterd
     $ go get -u github.com/Masterminds/glide
     $ glide install
     $ GO111MODULE=on go install . ./cmd/...
@@ -87,7 +87,7 @@ soterd (and utilities) will now be installed in `$GOPATH/bin`.  If you did not a
 - Run the following commands to update soterd, all dependencies, and install it:
 
 ```bash
-$ cd $GOPATH/src/github.com/soteria-dag/soterd
+$ cd $GOPATH/src/github.com/totaloutput/soterd
 $ git pull && glide install
 $ GO111MODULE=on go install . ./cmd/...
 ```

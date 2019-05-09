@@ -12,7 +12,7 @@ import (
 
 	"github.com/jessevdk/go-flags"
 
-	"github.com/soteria-dag/soterd/chaincfg"
+	"github.com/totaloutput/soterd/chaincfg"
 )
 
 const (

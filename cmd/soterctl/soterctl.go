@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/soteria-dag/soterd/soterjson"
+	"github.com/totaloutput/soterd/soterjson"
 )
 
 const (

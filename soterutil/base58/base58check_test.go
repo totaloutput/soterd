@@ -8,7 +8,7 @@ package base58_test
 import (
 	"testing"
 
-	"github.com/soteria-dag/soterd/soterutil/base58"
+	"github.com/totaloutput/soterd/soterutil/base58"
 )
 
 var checkEncodingStringTests = []struct {

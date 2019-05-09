@@ -10,10 +10,10 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	"github.com/soteria-dag/soterd/soterjson"
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/wire"
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/soterjson"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/wire"
+	"github.com/totaloutput/soterd/soterutil"
 )
 
 // SigHashType enumerates the available signature hashing types that the

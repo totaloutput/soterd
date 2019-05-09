@@ -8,7 +8,7 @@ package database
 import (
 	"fmt"
 
-	"github.com/soteria-dag/soterd/soterlog"
+	"github.com/totaloutput/soterd/soterlog"
 )
 
 // Driver defines a structure for backend drivers to use when they registered

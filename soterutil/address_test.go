@@ -13,8 +13,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/soteria-dag/soterd/chaincfg"
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/chaincfg"
+	"github.com/totaloutput/soterd/soterutil"
 	"golang.org/x/crypto/ripemd160"
 )
 

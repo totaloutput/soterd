@@ -8,16 +8,16 @@ package rpctest
 import (
 	"bytes"
 	"fmt"
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/soterutil"
 	"github.com/wcharczuk/go-chart"
 	"io/ioutil"
 	"reflect"
 	"time"
 
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/rpcclient"
-	"github.com/soteria-dag/soterd/soterjson"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/rpcclient"
+	"github.com/totaloutput/soterd/soterjson"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // JoinType is an enum representing a particular type of "node join". A node

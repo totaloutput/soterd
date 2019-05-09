@@ -12,7 +12,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // AddNodeSubCmd defines the type used in the addnode JSON-RPC command for the

@@ -10,7 +10,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/soteria-dag/soterd/soterjson"
+	"github.com/totaloutput/soterd/soterjson"
 )
 
 // TestUsageFlagStringer tests the stringized output for the UsageFlag type.

@@ -6,13 +6,13 @@
 package netsync
 
 import (
-	"github.com/soteria-dag/soterd/blockdag"
-	"github.com/soteria-dag/soterd/chaincfg"
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/mempool"
-	"github.com/soteria-dag/soterd/peer"
-	"github.com/soteria-dag/soterd/soterutil"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/blockdag"
+	"github.com/totaloutput/soterd/chaincfg"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/mempool"
+	"github.com/totaloutput/soterd/peer"
+	"github.com/totaloutput/soterd/soterutil"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // PeerNotifier exposes methods to notify peers of status changes to

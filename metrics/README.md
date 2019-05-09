@@ -16,7 +16,7 @@ Currently the metrics manager is used to expose block-mining metrics to external
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/soteria-dag/soterd/metrics
+$ go get -u github.com/totaloutput/soterd/metrics
 ```
 
 ## License

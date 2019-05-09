@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/database"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/database"
 )
 
 // blockRegionCmd defines the configuration options for the fetchblockregion

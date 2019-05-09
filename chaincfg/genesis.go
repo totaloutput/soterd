@@ -8,8 +8,8 @@ package chaincfg
 import (
 	"time"
 
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // genesisCoinbaseTx is the coinbase transaction for the genesis blocks for

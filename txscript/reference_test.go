@@ -16,9 +16,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/wire"
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/wire"
+	"github.com/totaloutput/soterd/soterutil"
 )
 
 // scriptTestName returns a descriptive test name for the given reference script

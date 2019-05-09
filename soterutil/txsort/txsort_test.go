@@ -12,8 +12,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/soteria-dag/soterd/wire"
-	"github.com/soteria-dag/soterd/soterutil/txsort"
+	"github.com/totaloutput/soterd/wire"
+	"github.com/totaloutput/soterd/soterutil/txsort"
 )
 
 // TestSort ensures the transaction sorting works according to the BIP.

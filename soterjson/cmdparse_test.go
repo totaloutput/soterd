@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/soteria-dag/soterd/soterjson"
+	"github.com/totaloutput/soterd/soterjson"
 )
 
 // TestAssignField tests the assignField function handles supported combinations

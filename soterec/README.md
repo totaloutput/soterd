@@ -18,7 +18,7 @@ use secp256k1 elliptic curve cryptography.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/soteria-dag/soterd/soterec
+$ go get -u github.com/totaloutput/soterd/soterec
 ```
 
 ## Examples

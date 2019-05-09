@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/soterutil"
 )
 
 // RenderDot returns a representation of the dag in graphviz DOT file format.

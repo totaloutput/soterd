@@ -23,18 +23,18 @@ import (
 
 	"github.com/btcsuite/go-socks/socks"
 	flags "github.com/jessevdk/go-flags"
-	"github.com/soteria-dag/soterd/blockdag"
+	"github.com/totaloutput/soterd/blockdag"
 	// NOTE(cedric): Commented out to disable checkpoint-related code (JIRA DAG-3)
 	// 
 	//
-	// "github.com/soteria-dag/soterd/chaincfg"
-	// "github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/connmgr"
-	"github.com/soteria-dag/soterd/database"
-	_ "github.com/soteria-dag/soterd/database/ffldb"
-	"github.com/soteria-dag/soterd/mempool"
-	"github.com/soteria-dag/soterd/peer"
-	"github.com/soteria-dag/soterd/soterutil"
+	// "github.com/totaloutput/soterd/chaincfg"
+	// "github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/connmgr"
+	"github.com/totaloutput/soterd/database"
+	_ "github.com/totaloutput/soterd/database/ffldb"
+	"github.com/totaloutput/soterd/mempool"
+	"github.com/totaloutput/soterd/peer"
+	"github.com/totaloutput/soterd/soterutil"
 )
 
 const (

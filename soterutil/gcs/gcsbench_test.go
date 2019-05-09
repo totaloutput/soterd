@@ -11,7 +11,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/soteria-dag/soterd/soterutil/gcs"
+	"github.com/totaloutput/soterd/soterutil/gcs"
 )
 
 func genRandFilterElements(numElements uint) ([][]byte, error) {

@@ -13,9 +13,9 @@ interface. The functions are only exported while the tests are being run.
 package soterutil
 
 import (
-	"github.com/soteria-dag/soterd/soterec"
-	"github.com/soteria-dag/soterd/soterutil/base58"
-	"github.com/soteria-dag/soterd/soterutil/bech32"
+	"github.com/totaloutput/soterd/soterec"
+	"github.com/totaloutput/soterd/soterutil/base58"
+	"github.com/totaloutput/soterd/soterutil/bech32"
 	"golang.org/x/crypto/ripemd160"
 )
 

@@ -12,15 +12,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/soteria-dag/soterd/blockdag"
-	"github.com/soteria-dag/soterd/blockdag/indexers"
-	"github.com/soteria-dag/soterd/chaincfg"
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/miningdag"
-	"github.com/soteria-dag/soterd/soterjson"
-	"github.com/soteria-dag/soterd/soterutil"
-	"github.com/soteria-dag/soterd/txscript"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/blockdag"
+	"github.com/totaloutput/soterd/blockdag/indexers"
+	"github.com/totaloutput/soterd/chaincfg"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/miningdag"
+	"github.com/totaloutput/soterd/soterjson"
+	"github.com/totaloutput/soterd/soterutil"
+	"github.com/totaloutput/soterd/txscript"
+	"github.com/totaloutput/soterd/wire"
 )
 
 const (

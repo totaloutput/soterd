@@ -10,7 +10,7 @@ This package is currently a work in progress.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/soteria-dag/soterd/mining
+$ go get -u github.com/totaloutput/soterd/mining
 ```
 
 ## License

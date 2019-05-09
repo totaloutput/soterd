@@ -7,7 +7,7 @@ package rpcclient
 import (
 	"encoding/json"
 
-	"github.com/soteria-dag/soterd/soterjson"
+	"github.com/totaloutput/soterd/soterjson"
 )
 
 // FutureGetDAGTipsResult is a promise to deliver the result of a

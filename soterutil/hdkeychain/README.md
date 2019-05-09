@@ -37,18 +37,18 @@ report.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/soteria-dag/soterd/soterutil/hdkeychain
+$ go get -u github.com/totaloutput/soterd/soterutil/hdkeychain
 ```
 
 ## Examples
 
-* [NewMaster Example](http://godoc.org/github.com/soteria-dag/soterd/soterutil/hdkeychain#example-NewMaster)  
+* [NewMaster Example](http://godoc.org/github.com/totaloutput/soterd/soterutil/hdkeychain#example-NewMaster)  
   Demonstrates how to generate a cryptographically random seed then use it to
   create a new master node (extended key).
-* [Default Wallet Layout Example](http://godoc.org/github.com/soteria-dag/soterd/soterutil/hdkeychain#example-package--DefaultWalletLayout)  
+* [Default Wallet Layout Example](http://godoc.org/github.com/totaloutput/soterd/soterutil/hdkeychain#example-package--DefaultWalletLayout)  
   Demonstrates the default hierarchical deterministic wallet layout as described
   in BIP0032.
-* [Audits Use Case Example](http://godoc.org/github.com/soteria-dag/soterd/soterutil/hdkeychain#example-package--Audits)  
+* [Audits Use Case Example](http://godoc.org/github.com/totaloutput/soterd/soterutil/hdkeychain#example-package--Audits)  
   Demonstrates the audits use case in BIP0032.
 
 ## License

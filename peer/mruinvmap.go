@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // mruInventoryMap provides a concurrency safe map that is limited to a maximum

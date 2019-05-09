@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/blang/semver"
-	"github.com/soteria-dag/soterd/chaincfg"
-	"github.com/soteria-dag/soterd/peer"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/chaincfg"
+	"github.com/totaloutput/soterd/peer"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // mockRemotePeer creates a basic inbound peer listening on the simnet port for

@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/soteria-dag/soterd/addrmgr"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/addrmgr"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // naTest is used to describe a test to be performed against the NetAddressKey

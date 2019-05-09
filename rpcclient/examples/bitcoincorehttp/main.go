@@ -8,7 +8,7 @@ package main
 import (
 	"log"
 
-	"github.com/soteria-dag/soterd/rpcclient"
+	"github.com/totaloutput/soterd/rpcclient"
 )
 
 func main() {

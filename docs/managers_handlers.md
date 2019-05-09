@@ -52,7 +52,7 @@ By starting the connection manager, `inHandler` goroutines are started for each 
 
 #### Where functionality is implemented
 
-The peer-related types and much of the related methods are defined in the `github.com/soteria-dag/soterd/peer` package, but the implementation of the listeners for supported messages are in `server.go`. 
+The peer-related types and much of the related methods are defined in the `github.com/totaloutput/soterd/peer` package, but the implementation of the listeners for supported messages are in `server.go`. 
 
 For more information on the `peer` package, see the [peer package README](../peer/README.md) or godoc file.
 

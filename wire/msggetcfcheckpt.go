@@ -8,7 +8,7 @@ package wire
 import (
 	"io"
 
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
 )
 
 // MsgGetCFCheckpt is a request for filter headers at evenly spaced intervals

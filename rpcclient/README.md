@@ -17,7 +17,7 @@ As development of soterd continues, you can expect that the API calls will drift
 ## Documentation
 
 * [API Reference](doc.go)
-    * TODO: This will be updated to godoc.org link when soteria-dag is made public 
+    * TODO: This will be updated to godoc.org link when soterium is made public 
 * [soterd Websockets Example](examples/soterdwebsockets/README.md)
   Connects to a soterd RPC server using TLS-secured websockets, registers for
   block connected and block disconnected notifications, and gets the current
@@ -47,7 +47,7 @@ As development of soterd continues, you can expect that the API calls will drift
 ## Installation
 
 ```bash
-$ go get -u github.com/soteria-dag/soterd/rpcclient
+$ go get -u github.com/totaloutput/soterd/rpcclient
 ```
 
 ## License

@@ -11,11 +11,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/soteria-dag/soterd/blockchain"
-	"github.com/soteria-dag/soterd/chaincfg"
-	"github.com/soteria-dag/soterd/database"
-	_ "github.com/soteria-dag/soterd/database/ffldb"
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/blockchain"
+	"github.com/totaloutput/soterd/chaincfg"
+	"github.com/totaloutput/soterd/database"
+	_ "github.com/totaloutput/soterd/database/ffldb"
+	"github.com/totaloutput/soterd/soterutil"
 )
 
 // This example demonstrates how to create a new chain instance and use

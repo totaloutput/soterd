@@ -4,26 +4,26 @@ These instructions describe getting started with soterd using the [docker](https
 
 #### Building the docker image
 
-1. If soteria-dag projects _aren't publicly available yet_, you need to clone the private dependencies of soteria-dag before building the container image.
+1. If soterium projects _aren't publicly available yet_, you need to clone the private dependencies of soterium before building the container image.
 
     ```bash
-    mkdir soteria-dag
-    git clone git@github.com:soteria-dag/soterwallet.git soteria-dag/soterwallet
+    mkdir soterium
+    git clone git@github.com:soterium/soterwallet.git soterium/soterwallet
     ```
 
 
-1. Clone the soteria-dag soterd git repository
+1. Clone the soterium soterd git repository
 
     ```bash
-    git clone git@github.com:soteria-dag/soterd.git soteria-dag/soterd
+    git clone git@github.com:totaloutput/soterd.git totaloutput/soterd
     ```
 
-2. Build the docker image for soteria-dag/soterd
+2. Build the docker image for totaloutput/soterd
 
-    Run this command the `soteria-dag` directory, **not** the `soterd` directory. When building a container image for a private project, we need to run the `docker build` command from a directory that has access to the private project _and_ all of its private dependencies.
+    Run this command the `soterium` directory, **not** the `soterd` directory. When building a container image for a private project, we need to run the `docker build` command from a directory that has access to the private project _and_ all of its private dependencies.
     ```
-    cd soteria-dag
-    docker build --tag soteria-dag/soterd:latest -f soterd/Dockerfile .
+    cd soterium
+    docker build --tag totaloutput/soterd:latest -f soterd/Dockerfile .
     ```
 
 #### Using the docker image to demonstrate block-dag generation
@@ -31,7 +31,7 @@ These instructions describe getting started with soterd using the [docker](https
 1. Run [dagviz](../cmd/dagviz/README.md) to generate a sample dag and step through its creation
 
     ```bash
-    docker run --rm --volume=`pwd`/demo:/srv/demo soteria-dag/soterd:latest dagviz -duration 10 -output /srv/demo
+    docker run --rm --volume=`pwd`/demo:/srv/demo totaloutput/soterd:latest dagviz -duration 10 -output /srv/demo
     ```
 
 2. Open the `./demo/dag_0.html` file in your browser, and navigate through the dag (if `-stepping` was specified for the `dagviz` run).
@@ -47,7 +47,7 @@ These instructions describe getting started with soterd using the [docker](https
 #### Running a soterd node using the `docker` command
 
 ```
-docker run --rm --publish "5070-5071/tcp" soteria-dag/soterd:latest soterd --testnet --datadir=/srv/soterd/data --logdir=/srv/soterd/logs --listen=0.0.0.0:5070 --rpclisten=0.0.0.0:5071 --rpcuser=USER --rpcpass=PASS --miningaddr=mrqvnRT17uBvozaaZXZJb2LSeWiWadx96N
+docker run --rm --publish "5070-5071/tcp" totaloutput/soterd:latest soterd --testnet --datadir=/srv/soterd/data --logdir=/srv/soterd/logs --listen=0.0.0.0:5070 --rpclisten=0.0.0.0:5071 --rpcuser=USER --rpcpass=PASS --miningaddr=mrqvnRT17uBvozaaZXZJb2LSeWiWadx96N
 ```
 After the docker instance is started, you can use `docker ps` to see which ports on the host are mapped to `listen` and `rpclisten`, then publish the host ports to other nodes so they can connect to your node.
 

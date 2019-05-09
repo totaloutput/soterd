@@ -12,10 +12,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/soteria-dag/soterd/soterec"
-	"github.com/soteria-dag/soterd/chaincfg"
-	"github.com/soteria-dag/soterd/soterutil/base58"
-	"github.com/soteria-dag/soterd/soterutil/bech32"
+	"github.com/totaloutput/soterd/soterec"
+	"github.com/totaloutput/soterd/chaincfg"
+	"github.com/totaloutput/soterd/soterutil/base58"
+	"github.com/totaloutput/soterd/soterutil/bech32"
 	"golang.org/x/crypto/ripemd160"
 )
 

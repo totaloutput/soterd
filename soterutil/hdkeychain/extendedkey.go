@@ -19,11 +19,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/soteria-dag/soterd/soterec"
-	"github.com/soteria-dag/soterd/chaincfg"
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/soterutil"
-	"github.com/soteria-dag/soterd/soterutil/base58"
+	"github.com/totaloutput/soterd/soterec"
+	"github.com/totaloutput/soterd/chaincfg"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/soterutil"
+	"github.com/totaloutput/soterd/soterutil/base58"
 )
 
 const (

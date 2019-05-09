@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/soteria-dag/soterd/soterjson"
+	"github.com/totaloutput/soterd/soterjson"
 )
 
 // TestHelpers tests the various helper functions which create pointers to

@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // TestParseOpcode tests for opcode parsing with bad data templates.

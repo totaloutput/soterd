@@ -7,11 +7,11 @@ package blockdag
 import (
 	"encoding/binary"
 	"fmt"
-	"github.com/soteria-dag/soterd/chaincfg"
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/soterutil"
-	"github.com/soteria-dag/soterd/txscript"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/chaincfg"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/soterutil"
+	"github.com/totaloutput/soterd/txscript"
+	"github.com/totaloutput/soterd/wire"
 	"reflect"
 	"testing"
 	"time"
@@ -199,11 +199,9 @@ func createSpendTxForTest(outpoints []*wire.OutPoint, amount soterutil.Amount, f
 
 func addBlockForTest(dag *BlockDAG, msgBlock *wire.MsgBlock, t *testing.T) (bool, error) {
 	block := soterutil.NewBlock(msgBlock)
-	var blockHash = msgBlock.BlockHash()
 	_, isOrphan, err := dag.ProcessBlock(block, BFNone)
 	if err != nil {
-		t.Errorf("ProcessBlock fail on block %v: %v\n", blockHash, err)
-		return false, nil
+		return false, err
 	}
 	return isOrphan, nil
 }

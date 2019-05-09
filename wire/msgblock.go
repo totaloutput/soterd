@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
 )
 
 // defaultTransactionAlloc is the default size used for the backing array

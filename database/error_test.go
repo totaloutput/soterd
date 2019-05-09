@@ -9,7 +9,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/soteria-dag/soterd/database"
+	"github.com/totaloutput/soterd/database"
 )
 
 // TestErrorCodeStringer tests the stringized output for the ErrorCode type.

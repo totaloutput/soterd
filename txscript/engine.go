@@ -12,8 +12,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/soteria-dag/soterd/soterec"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/soterec"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // ScriptFlags is a bitmask defining additional operations or tests that will be

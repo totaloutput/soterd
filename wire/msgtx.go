@@ -11,7 +11,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
 )
 
 const (

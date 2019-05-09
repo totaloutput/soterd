@@ -36,7 +36,7 @@ differences between soterd and bitcoind as far as how RPCs are serviced:
   further details on why they were separated (from btcd developers perspective).  This means that if you are
   talking directly to soterd, only dag-related RPCs are available.  However both
   dag-related and wallet-related RPCs are available via
-  [soterwallet](https://github.com/soteria-dag/soterwallet).
+  [soterwallet](https://github.com/soterium/soterwallet).
 * soterd is secure by default which means that the RPC connection is TLS-enabled
   by default
 * soterd provides access to the API through both
@@ -44,7 +44,7 @@ differences between soterd and bitcoind as far as how RPCs are serviced:
   [Websockets](http://en.wikipedia.org/wiki/WebSocket)
 
 Websockets are the preferred transport for soterd RPC and are used by applications
-such as [soterwallet](https://github.com/soteria-dag/soterwallet) for inter-process
+such as [soterwallet](https://github.com/soterium/soterwallet) for inter-process
 communication with soterd.  The websocket connection endpoint for soterd is
 `wss://your_ip_or_domain:8334/ws`.
 
@@ -1159,7 +1159,7 @@ package main
 
 import (
 	"github.com/btcsuite/btcrpcclient"
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/soterutil"
 	"io/ioutil"
 	"log"
 	"path/filepath"
@@ -1219,10 +1219,10 @@ information about the Genesis block, and display a few details about it.
 package main
 
 import (
-	"github.com/soteria-dag/soterd/rpcclient"
-	"github.com/soteria-dag/soterd/soterutil"
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/rpcclient"
+	"github.com/totaloutput/soterd/soterutil"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/wire"
 	"io/ioutil"
 	"log"
 	"path/filepath"
@@ -1311,10 +1311,10 @@ the notifications.
 package main
 
 import (
-	"github.com/soteria-dag/soterd/rpcclient"
-	"github.com/soteria-dag/soterd/soterutil"
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/rpcclient"
+	"github.com/totaloutput/soterd/soterutil"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/wire"
 	"io/ioutil"
 	"log"
 	"path/filepath"

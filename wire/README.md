@@ -14,7 +14,7 @@ protocol level.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/soteria-dag/soterd/wire
+$ go get -u github.com/totaloutput/soterd/wire
 ```
 
 ## Soter Message Overview

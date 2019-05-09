@@ -7,7 +7,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/soterutil"
 	"io/ioutil"
 	"os"
 	"path/filepath"
@@ -15,8 +15,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/soteria-dag/soterd/chaincfg"
-	"github.com/soteria-dag/soterd/integration/rpctest"
+	"github.com/totaloutput/soterd/chaincfg"
+	"github.com/totaloutput/soterd/integration/rpctest"
 )
 
 // save bytes to a file descriptor

@@ -15,10 +15,10 @@ import (
 
 	"github.com/blang/semver"
 	"github.com/btcsuite/go-socks/socks"
-	"github.com/soteria-dag/soterd/chaincfg"
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/peer"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/chaincfg"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/peer"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // conn mocks a network connection by implementing the net.Conn interface.  It

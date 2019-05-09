@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/wire"
 )
 
 var (

@@ -11,11 +11,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/soteria-dag/soterd/chaincfg"
-	"github.com/soteria-dag/soterd/database"
-	_ "github.com/soteria-dag/soterd/database/ffldb"
-	"github.com/soteria-dag/soterd/wire"
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/chaincfg"
+	"github.com/totaloutput/soterd/database"
+	_ "github.com/totaloutput/soterd/database/ffldb"
+	"github.com/totaloutput/soterd/wire"
+	"github.com/totaloutput/soterd/soterutil"
 )
 
 // This example demonstrates creating a new database.
@@ -23,8 +23,8 @@ func ExampleCreate() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/soteria-dag/soterd/database"
-	// 	_ "github.com/soteria-dag/soterd/database/ffldb"
+	// 	"github.com/totaloutput/soterd/database"
+	// 	_ "github.com/totaloutput/soterd/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.
@@ -49,8 +49,8 @@ func Example_basicUsage() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/soteria-dag/soterd/database"
-	// 	_ "github.com/soteria-dag/soterd/database/ffldb"
+	// 	"github.com/totaloutput/soterd/database"
+	// 	_ "github.com/totaloutput/soterd/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.
@@ -115,8 +115,8 @@ func Example_blockStorageAndRetrieval() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/soteria-dag/soterd/database"
-	// 	_ "github.com/soteria-dag/soterd/database/ffldb"
+	// 	"github.com/totaloutput/soterd/database"
+	// 	_ "github.com/totaloutput/soterd/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.

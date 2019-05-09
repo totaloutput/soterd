@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // OutOfRangeError describes an error due to accessing an element that is out

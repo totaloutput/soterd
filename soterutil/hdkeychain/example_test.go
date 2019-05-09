@@ -8,8 +8,8 @@ package hdkeychain_test
 import (
 	"fmt"
 
-	"github.com/soteria-dag/soterd/chaincfg"
-	"github.com/soteria-dag/soterd/soterutil/hdkeychain"
+	"github.com/totaloutput/soterd/chaincfg"
+	"github.com/totaloutput/soterd/soterutil/hdkeychain"
 )
 
 // This example demonstrates how to generate a cryptographically random seed

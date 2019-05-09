@@ -9,7 +9,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/soteria-dag/soterd/soterutil/base58"
+	"github.com/totaloutput/soterd/soterutil/base58"
 )
 
 func BenchmarkBase58Encode(b *testing.B) {

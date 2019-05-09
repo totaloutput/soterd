@@ -10,7 +10,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
 )
 
 // MaxBlockHeaderPayload is the maximum number of bytes a block header can be.

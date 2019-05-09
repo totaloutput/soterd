@@ -18,7 +18,7 @@ systems/integration tests.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/soteria-dag/soterd/integration/rpctest
+$ go get -u github.com/totaloutput/soterd/integration/rpctest
 ```
 
 ## License

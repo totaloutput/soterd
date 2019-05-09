@@ -72,7 +72,7 @@ be an exhaustive list.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/soteria-dag/soterd/mempool
+$ go get -u github.com/totaloutput/soterd/mempool
 ```
 
 ## License

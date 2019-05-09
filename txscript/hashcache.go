@@ -8,8 +8,8 @@ package txscript
 import (
 	"sync"
 
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // TxSigHashes houses the partial set of sighashes introduced within BIP0143.

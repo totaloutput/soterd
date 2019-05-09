@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/soteria-dag/soterd/addrmgr"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/addrmgr"
+	"github.com/totaloutput/soterd/wire"
 )
 
 func TestChance(t *testing.T) {

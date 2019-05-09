@@ -10,7 +10,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/soteria-dag/soterd/soterjson"
+	"github.com/totaloutput/soterd/soterjson"
 	"github.com/btcsuite/go-socks/socks"
 )
 

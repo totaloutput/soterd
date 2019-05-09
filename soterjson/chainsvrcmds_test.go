@@ -12,8 +12,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/soteria-dag/soterd/soterjson"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/soterjson"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // TestChainSvrCmds tests all of the chain server commands marshal and unmarshal

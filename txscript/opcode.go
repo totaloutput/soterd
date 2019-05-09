@@ -15,9 +15,9 @@ import (
 
 	"golang.org/x/crypto/ripemd160"
 
-	"github.com/soteria-dag/soterd/soterec"
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/soterec"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // An opcode defines the information related to a txscript opcode.  opfunc, if

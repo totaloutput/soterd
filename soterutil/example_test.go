@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/soterutil"
 )
 
 func ExampleAmount() {

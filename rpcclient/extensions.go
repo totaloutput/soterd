@@ -13,10 +13,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/soteria-dag/soterd/soterjson"
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/wire"
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/soterjson"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/wire"
+	"github.com/totaloutput/soterd/soterutil"
 )
 
 // FutureDebugLevelResult is a future promise to deliver the result of a

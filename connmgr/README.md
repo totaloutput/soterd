@@ -27,7 +27,7 @@ In addition the connection manager provides the following utilities:
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/soteria-dag/soterd/connmgr
+$ go get -u github.com/totaloutput/soterd/connmgr
 ```
 
 ## License

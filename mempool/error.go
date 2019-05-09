@@ -6,8 +6,8 @@
 package mempool
 
 import (
-	"github.com/soteria-dag/soterd/blockdag"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/blockdag"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // RuleError identifies a rule violation.  It is used to indicate that

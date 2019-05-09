@@ -5,8 +5,8 @@ This document describes the meanings of some terms you'll come across in this re
 
 |Term|Meaning|
 |----|----|
-|_Soteria_|A company that is putting development effort into the Soteria DAG suite of applications.|
-|_Soteria DAG_|A suite of Soter-related applications|
+|_Soteria_|A company that is putting development effort into the Soterium suite of applications.|
+|_Soterium_|A suite of Soter-related applications|
 |_Soter_|A bitcoin-like crypto-currency, implementation of blockdag, p2p wire protocol, and network of Soter nodes. (The same term may be used to refer to multiple different things)|
 |_SOTO_|The trade name of the Soter tokens (ex: `bitcoin -> BTC`)|
 |_nanoSoter_|1e-9 of a Soter token|

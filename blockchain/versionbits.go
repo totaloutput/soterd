@@ -8,7 +8,7 @@ package blockchain
 import (
 	"math"
 
-	"github.com/soteria-dag/soterd/chaincfg"
+	"github.com/totaloutput/soterd/chaincfg"
 )
 
 const (

@@ -6,9 +6,9 @@
 package miningdag
 
 import (
-	"github.com/soteria-dag/soterd/blockdag"
-	"github.com/soteria-dag/soterd/soterutil"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/blockdag"
+	"github.com/totaloutput/soterd/soterutil"
+	"github.com/totaloutput/soterd/wire"
 )
 
 const (

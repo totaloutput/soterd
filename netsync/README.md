@@ -69,7 +69,7 @@ The node receives the `block` message, and processes it with `SyncManager.handle
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/soteria-dag/soterd/netsync
+$ go get -u github.com/totaloutput/soterd/netsync
 ```
 
 ## License

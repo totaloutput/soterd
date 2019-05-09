@@ -46,7 +46,7 @@ Soterd maintains a transaction pool, and relays individual transactions that hav
 
 #### Excluded functionality
 
-Like btcd, soterd does not include wallet functionality. [soterwallet](https://github.com/soteria-dag/soterwallet) is intended for making or receive payments with soterd, however it is still being updated from the [btcwallet](https://github.com/btcsuite/btcwallet) fork to be compatible with soterd. In the meantime, transactions can be demonstrated with the [gentx](https://github.com/soteria-dag/soter-tools/cmd/gentx/README.md) command.
+Like btcd, soterd does not include wallet functionality. [soterwallet](https://github.com/soterium/soterwallet) is intended for making or receive payments with soterd, however it is still being updated from the [btcwallet](https://github.com/btcsuite/btcwallet) fork to be compatible with soterd. In the meantime, transactions can be demonstrated with the [gentx](https://github.com/soterium/soter-tools/cmd/gentx/README.md) command.
 
 <a name="GettingStarted" />
 
@@ -149,7 +149,7 @@ The limited user cannot access this RPC.
 
 #### 3.2 Wallet
 
-Soterd doesn't include a wallet. [soterwallet](https://github.com/soteria-dag/soterwallet) is intended for making or receive payments with soterd, however it is still being updated from the [btcwallet](https://github.com/btcsuite/btcwallet) fork to be compatible with soterd. In the meantime, transactions can be demonstrated with the [gentx](https://github.com/soteria-dag/soter-tools/cmd/gentx/README.md) command.
+Soterd doesn't include a wallet. [soterwallet](https://github.com/soterium/soterwallet) is intended for making or receive payments with soterd, however it is still being updated from the [btcwallet](https://github.com/btcsuite/btcwallet) fork to be compatible with soterd. In the meantime, transactions can be demonstrated with the [gentx](https://github.com/soterium/soter-tools/cmd/gentx/README.md) command.
 
 
 <a name="Contact" />
@@ -251,8 +251,8 @@ The [Soterd startup](soterd_startup.md) document has a brief description of the 
 
 These projects are related to soterd, and provide additional functionality:
 
-* [soterwallet](https://github.com/soteria-dag/soterwallet) - for making or receiving payments with soterd and the soter network. See the [Wallet](#Wallet) section for a note about its current functionality.
-* [soterdash](https://github.com/soteria-dag/soterdash) - a web ui that provides information about the soter network.
+* [soterwallet](https://github.com/soterium/soterwallet) - for making or receiving payments with soterd and the soter network. See the [Wallet](#Wallet) section for a note about its current functionality.
+* [soterdash](https://github.com/totaloutput/soterdash) - a web ui that provides information about the soter network.
     * Soterd node info
     * BlockDAG info
         * Blocks

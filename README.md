@@ -38,13 +38,13 @@ Project documentation is located in the [docs](docs/README.md) folder.
 
 ## Issue Tracker
 
-The [integrated github issue tracker](https://github.com/soteria-dag/soterd/issues) is used for this project. 
+The [integrated github issue tracker](https://github.com/totaloutput/soterd/issues) is used for this project. 
 
 
 ## Other soteria projects
 
-* [soterwallet](https://github.com/soteria-dag/soterwallet) - for making or receiving payments with soterd and the soter network. See the [Wallet](docs/README.md#Wallet) section for a note about its current functionality.
-* [soterdash](https://github.com/soteria-dag/soterdash) - a web ui that provides information about the soter network.
+* [soterwallet](https://github.com/soterium/soterwallet) - for making or receiving payments with soterd and the soter network. See the [Wallet](docs/README.md#Wallet) section for a note about its current functionality.
+* [soterdash](https://github.com/totaloutput/soterdash) - a web ui that provides information about the soter network.
 
 
 ## License

@@ -8,9 +8,9 @@ package soterutil_test
 import (
 	"testing"
 
-	"github.com/soteria-dag/soterd/soterec"
-	"github.com/soteria-dag/soterd/chaincfg"
-	. "github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/soterec"
+	"github.com/totaloutput/soterd/chaincfg"
+	. "github.com/totaloutput/soterd/soterutil"
 )
 
 func TestEncodeDecodeWIF(t *testing.T) {

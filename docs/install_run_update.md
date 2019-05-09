@@ -38,20 +38,20 @@ Refer to the [Getting started with Docker](getting_started_docker.md) document f
     `~/goprojects` to avoid write permission issues. It is also recommended to add
     `$GOPATH/bin` to your `PATH` at this point.
 
-3. If soteria-dag projects _aren't publicly available yet_, you may need to redirect git requests using https to use ssh instead. This allows `go mod` and related package-management tools to work without prompting you for github credentials.
+3. If soterium projects _aren't publicly available yet_, you may need to redirect git requests using https to use ssh instead. This allows `go mod` and related package-management tools to work without prompting you for github credentials.
 
     ```bash
     # Add this section to your ~/.gitconfig file
 
-    [url "ssh://git@github.com/soteria-dag/"]
-        insteadOf = https://github.com/soteria-dag/
+    [url "ssh://git@github.com/soterium/"]
+        insteadOf = https://github.com/soterium/
     ```
 
 4. Run the following commands to obtain soterd, all dependencies, and install it:
 
     ```bash
-    $ git clone https://github.com/soteria-dag/soterd $GOPATH/src/github.com/soteria-dag/soterd
-    $ cd $GOPATH/src/github.com/soteria-dag/soterd
+    $ git clone https://github.com/totaloutput/soterd $GOPATH/src/github.com/totaloutput/soterd
+    $ cd $GOPATH/src/github.com/totaloutput/soterd
     $ git checkout exp0
     $ go get -u github.com/Masterminds/glide
     $ glide install
@@ -72,7 +72,7 @@ Re-run the `docker build` command from the [Getting started with Docker](docs/ge
 - Run the following commands to update soterd, all dependencies, and install it:
 
 ```bash
-$ cd $GOPATH/src/github.com/soteria-dag/soterd
+$ cd $GOPATH/src/github.com/totaloutput/soterd
 $ git pull && glide install
 $ GO111MODULE=on go install . ./cmd/...
 ```

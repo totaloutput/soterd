@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // Bip16Activation is the timestamp where BIP0016 is valid to use in the

@@ -13,12 +13,12 @@ report.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/soteria-dag/soterd/soterutil/bloom
+$ go get -u github.com/totaloutput/soterd/soterutil/bloom
 ```
 
 ## Examples
 
-* [NewFilter Example](http://godoc.org/github.com/soteria-dag/soterd/soterutil/bloom#example-NewFilter)  
+* [NewFilter Example](http://godoc.org/github.com/totaloutput/soterd/soterutil/bloom#example-NewFilter)  
   Demonstrates how to create a new bloom filter, add a transaction hash to it,
   and check if the filter matches the transaction.
 

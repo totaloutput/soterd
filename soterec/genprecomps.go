@@ -18,7 +18,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/soteria-dag/soterd/soterec"
+	"github.com/totaloutput/soterd/soterec"
 )
 
 func main() {

@@ -12,7 +12,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/soteria-dag/soterd/soterjson"
+	"github.com/totaloutput/soterd/soterjson"
 )
 
 // helpDescsEnUS defines the English descriptions used for the help strings.

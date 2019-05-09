@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/wire"
 	"github.com/davecgh/go-spew/spew"
 )
 

@@ -8,11 +8,11 @@ package blockchain
 import (
 	"fmt"
 
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/database"
-	"github.com/soteria-dag/soterd/txscript"
-	"github.com/soteria-dag/soterd/wire"
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/database"
+	"github.com/totaloutput/soterd/txscript"
+	"github.com/totaloutput/soterd/wire"
+	"github.com/totaloutput/soterd/soterutil"
 )
 
 // txoFlags is a bitmask defining additional information and state for a

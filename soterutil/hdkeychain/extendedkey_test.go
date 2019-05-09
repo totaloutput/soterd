@@ -17,7 +17,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/soteria-dag/soterd/chaincfg"
+	"github.com/totaloutput/soterd/chaincfg"
 )
 
 // TestBIP0032Vectors tests the vectors provided by [BIP32] to ensure the

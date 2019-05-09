@@ -24,4 +24,4 @@ Updating pre-generated test data is the most labour-intensive, because it requir
 
 ### Examples of p2p protocol changes
 
-Commit [2e67fd3](https://github.com/soteria-dag/soterd/commit/2e67fd353a400785ebdf4cc1f428e130f050e9a6) implemented a change to the block structure (adding parent sub-header to the block). It covers all of the above points, so it could be used as a reference when considering making updates to the p2p wire protocol. 
+Commit [2e67fd3](https://github.com/totaloutput/soterd/commit/2e67fd353a400785ebdf4cc1f428e130f050e9a6) implemented a change to the block structure (adding parent sub-header to the block). It covers all of the above points, so it could be used as a reference when considering making updates to the p2p wire protocol. 

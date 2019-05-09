@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // testNoncePrng provides a deterministic prng for the nonce in generated fake

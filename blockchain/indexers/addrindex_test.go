@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // addrIndexBucket provides a mock address index database bucket by implementing

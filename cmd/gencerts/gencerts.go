@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/soterutil"
 	flags "github.com/jessevdk/go-flags"
 )
 

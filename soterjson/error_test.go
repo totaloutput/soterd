@@ -8,7 +8,7 @@ package soterjson_test
 import (
 	"testing"
 
-	"github.com/soteria-dag/soterd/soterjson"
+	"github.com/totaloutput/soterd/soterjson"
 )
 
 // TestErrorCodeStringer tests the stringized output for the ErrorCode type.

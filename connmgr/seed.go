@@ -12,8 +12,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/soteria-dag/soterd/chaincfg"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/chaincfg"
+	"github.com/totaloutput/soterd/wire"
 )
 
 const (

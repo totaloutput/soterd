@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/txscript"
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/txscript"
+	"github.com/totaloutput/soterd/soterutil"
 )
 
 const (

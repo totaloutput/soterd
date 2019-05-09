@@ -5,7 +5,7 @@
 // This file is ignored during the regular tests due to the following build tag.
 // +build rpctest dag daggen
 // You can run tests from this file in isolation by using the build tags, like so:
-// go test -v -count=1 -tags "daggen" github.com/soteria-dag/soterd/integration
+// go test -v -count=1 -tags "daggen" github.com/totaloutput/soterd/integration
 
 package integration
 
@@ -13,9 +13,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/soteria-dag/soterd/chaincfg"
-	"github.com/soteria-dag/soterd/integration/rpctest"
-	"github.com/soteria-dag/soterd/rpcclient"
+	"github.com/totaloutput/soterd/chaincfg"
+	"github.com/totaloutput/soterd/integration/rpctest"
+	"github.com/totaloutput/soterd/rpcclient"
 )
 
 // countDAGBlocks returns the number of blocks with multiple parents (indicating DAG structure) found on a node

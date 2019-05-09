@@ -11,13 +11,13 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
 )
 
 // TestParentsSubHeaderWire tests the block sub-header serialization and deserialization.
 func TestParentsSubHeaderSerialize(t *testing.T) {
 
-	// NOTE(cedric): This is the same hash defined in github.com/soteria-dag/soterd/chaincfg package.
+	// NOTE(cedric): This is the same hash defined in github.com/totaloutput/soterd/chaincfg package.
 	// We re-define it here, because the chaincfg package imports the wire package,
 	// and golang doesn't allow for circular imports in tests.
 	// (wire -> chaincfg -> wire -> ...)

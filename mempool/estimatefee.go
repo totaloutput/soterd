@@ -17,9 +17,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/miningdag"
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/miningdag"
+	"github.com/totaloutput/soterd/soterutil"
 )
 
 // TODO incorporate Alex Morcos' modifications to Gavin's initial model

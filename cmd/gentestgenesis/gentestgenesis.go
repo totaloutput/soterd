@@ -3,12 +3,12 @@ package main
 import (
 	"bytes"
 	"fmt"
-	"github.com/soteria-dag/soterd/blockdag"
+	"github.com/totaloutput/soterd/blockdag"
 	"math/big"
 	"regexp"
 	"time"
 
-	"github.com/soteria-dag/soterd/chaincfg"
+	"github.com/totaloutput/soterd/chaincfg"
 	"strings"
 	"encoding/hex"
 )

@@ -15,8 +15,8 @@ import (
 	"runtime"
 	"time"
 
-	rpc "github.com/soteria-dag/soterd/rpcclient"
-	"github.com/soteria-dag/soterd/soterutil"
+	rpc "github.com/totaloutput/soterd/rpcclient"
+	"github.com/totaloutput/soterd/soterutil"
 )
 
 // nodeConfig contains all the args, and data required to launch a soterd process

@@ -5,7 +5,7 @@
 
 package dagindexers
 
-import "github.com/soteria-dag/soterd/soterlog"
+import "github.com/totaloutput/soterd/soterlog"
 
 // log is a logger that is initialized with no output filters.  This
 // means the package will not perform any logging by default until the caller

@@ -8,13 +8,13 @@ package main
 import (
 	"sync/atomic"
 
-	"github.com/soteria-dag/soterd/blockdag"
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/mempool"
-	"github.com/soteria-dag/soterd/netsync"
-	"github.com/soteria-dag/soterd/peer"
-	"github.com/soteria-dag/soterd/wire"
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/blockdag"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/mempool"
+	"github.com/totaloutput/soterd/netsync"
+	"github.com/totaloutput/soterd/peer"
+	"github.com/totaloutput/soterd/wire"
+	"github.com/totaloutput/soterd/soterutil"
 )
 
 // rpcPeer provides a peer for use with the RPC server and implements the

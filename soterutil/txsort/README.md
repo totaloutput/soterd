@@ -20,7 +20,7 @@ A comprehensive suite of tests is provided to ensure proper functionality.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/soteria-dag/soterd/soterutil/txsort
+$ go get -u github.com/totaloutput/soterd/soterutil/txsort
 ```
 
 ## License

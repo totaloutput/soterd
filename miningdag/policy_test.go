@@ -9,10 +9,10 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/soteria-dag/soterd/blockdag"
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/soterutil"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/blockdag"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/soterutil"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // newHashFromStr converts the passed big-endian hex string into a

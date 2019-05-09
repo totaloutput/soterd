@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/soteria-dag/soterd/soterutil/bech32"
+	"github.com/totaloutput/soterd/soterutil/bech32"
 )
 
 func TestBech32(t *testing.T) {

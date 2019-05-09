@@ -8,7 +8,7 @@ package blockchain
 import (
 	"testing"
 
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/soterutil"
 )
 
 // BenchmarkIsCoinBase performs a simple benchmark against the IsCoinBase

@@ -11,7 +11,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/soteria-dag/soterd/txscript"
+	"github.com/totaloutput/soterd/txscript"
 )
 */
 

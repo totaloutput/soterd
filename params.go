@@ -6,8 +6,8 @@
 package main
 
 import (
-	"github.com/soteria-dag/soterd/chaincfg"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/chaincfg"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // activeNetParams is a pointer to the parameters specific to the

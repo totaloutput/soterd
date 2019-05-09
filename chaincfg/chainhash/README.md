@@ -10,7 +10,7 @@ specific hash algorithm to be abstracted. It is used throughout the soterd codeb
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/soteria-dag/soterd/chaincfg/chainhash
+$ go get -u github.com/totaloutput/soterd/chaincfg/chainhash
 ```
 
 ## License

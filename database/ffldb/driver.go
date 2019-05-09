@@ -8,9 +8,9 @@ package ffldb
 import (
 	"fmt"
 
-	"github.com/soteria-dag/soterd/database"
-	"github.com/soteria-dag/soterd/wire"
-	"github.com/soteria-dag/soterd/soterlog"
+	"github.com/totaloutput/soterd/database"
+	"github.com/totaloutput/soterd/wire"
+	"github.com/totaloutput/soterd/soterlog"
 )
 
 var log = soterlog.Disabled

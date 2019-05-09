@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"flag"
 	"fmt"
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/soterutil"
 	"html/template"
 	"io/ioutil"
 	"log"
@@ -18,9 +18,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/soteria-dag/soterd/blockdag"
-	"github.com/soteria-dag/soterd/chaincfg"
-	"github.com/soteria-dag/soterd/integration/rpctest"
+	"github.com/totaloutput/soterd/blockdag"
+	"github.com/totaloutput/soterd/chaincfg"
+	"github.com/totaloutput/soterd/integration/rpctest"
 	"github.com/wcharczuk/go-chart"
 	"github.com/wcharczuk/go-chart/drawing"
 )

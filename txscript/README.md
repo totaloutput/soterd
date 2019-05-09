@@ -19,7 +19,7 @@ can be found at https://en.bitcoin.it/wiki/Script
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/soteria-dag/soterd/txscript
+$ go get -u github.com/totaloutput/soterd/txscript
 ```
 
 ## Examples

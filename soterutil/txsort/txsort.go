@@ -12,8 +12,8 @@ import (
 	"bytes"
 	"sort"
 
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // InPlaceSort modifies the passed transaction inputs and outputs to be sorted

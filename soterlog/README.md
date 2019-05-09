@@ -9,7 +9,7 @@ of a subsystem-aware leveled logger implementing the same interface.
 ## Installation
 
 ```bash
-$ go get github.com/soteria-dag/soterd/soterlog
+$ go get github.com/totaloutput/soterd/soterlog
 ```
 
 ## License

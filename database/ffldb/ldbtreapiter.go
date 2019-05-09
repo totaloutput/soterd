@@ -6,7 +6,7 @@
 package ffldb
 
 import (
-	"github.com/soteria-dag/soterd/database/internal/treap"
+	"github.com/totaloutput/soterd/database/internal/treap"
 	"github.com/btcsuite/goleveldb/leveldb/iterator"
 	"github.com/btcsuite/goleveldb/leveldb/util"
 )

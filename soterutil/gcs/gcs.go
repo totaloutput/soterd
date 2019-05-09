@@ -13,7 +13,7 @@ import (
 	"sort"
 
 	"github.com/aead/siphash"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/wire"
 	"github.com/kkdai/bstream"
 )
 

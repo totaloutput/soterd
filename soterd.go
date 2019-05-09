@@ -16,9 +16,9 @@ import (
 	"runtime/debug"
 	"runtime/pprof"
 
-	"github.com/soteria-dag/soterd/blockdag/indexers"
-	"github.com/soteria-dag/soterd/database"
-	"github.com/soteria-dag/soterd/limits"
+	"github.com/totaloutput/soterd/blockdag/indexers"
+	"github.com/totaloutput/soterd/database"
+	"github.com/totaloutput/soterd/limits"
 )
 
 const (

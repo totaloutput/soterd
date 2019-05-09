@@ -9,8 +9,8 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/soteria-dag/soterd/soterec"
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/soterec"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
 )
 
 // genRandomSig returns a random message, a signature of the message under the

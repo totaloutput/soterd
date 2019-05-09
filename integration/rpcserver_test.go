@@ -15,9 +15,9 @@ import (
 	"runtime/debug"
 	"testing"
 
-	"github.com/soteria-dag/soterd/chaincfg"
-	"github.com/soteria-dag/soterd/integration/rpctest"
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/chaincfg"
+	"github.com/totaloutput/soterd/integration/rpctest"
+	"github.com/totaloutput/soterd/soterutil"
 )
 
 func testGetBestBlock(r *rpctest.Harness, t *testing.T) {

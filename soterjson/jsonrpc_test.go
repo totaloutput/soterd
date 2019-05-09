@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/soteria-dag/soterd/soterjson"
+	"github.com/totaloutput/soterd/soterjson"
 )
 
 // TestIsValidIDType ensures the IsValidIDType function behaves as expected.

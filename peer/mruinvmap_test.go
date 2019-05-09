@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // TestMruInventoryMap ensures the MruInventoryMap behaves as expected including

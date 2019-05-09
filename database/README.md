@@ -11,8 +11,8 @@ one entity can have the database open at a time (for most database backends),
 and that entity will be soterd.
 
 When a client wants programmatic access to the data provided by soterd, they'll
-likely want to use the [rpcclient](https://github.com/soteria-dag/soterd/tree/master/rpcclient)
-package which makes use of the [JSON-RPC API](https://github.com/soteria-dag/soterd/tree/master/docs/json_rpc_api.md).
+likely want to use the [rpcclient](https://github.com/totaloutput/soterd/tree/master/rpcclient)
+package which makes use of the [JSON-RPC API](https://github.com/totaloutput/soterd/tree/master/docs/json_rpc_api.md).
 
 However, this package could be extremely useful for any applications requiring
 Bitcoin block storage capabilities.
@@ -102,7 +102,7 @@ The `testdata` directory contains the `dagblocks1-256.bz2` bzipped file of block
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/soteria-dag/soterd/database
+$ go get -u github.com/totaloutput/soterd/database
 ```
 
 ## Examples
@@ -117,8 +117,8 @@ Demonstrates creating a new database and using a managed read-write transaction 
 // This example assumes the ffldb driver is imported.
 //
 // import (
-// 	"github.com/soteria-dag/soterd/database"
-// 	_ "github.com/soteria-dag/soterd/database/ffldb"
+// 	"github.com/totaloutput/soterd/database"
+// 	_ "github.com/totaloutput/soterd/database/ffldb"
 // )
 
 // Create a database and schedule it to be closed and removed on exit.

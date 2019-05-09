@@ -13,7 +13,7 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/soterutil"
 )
 
 // TestAppDataDir tests the API for AppDataDir to ensure it gives expected

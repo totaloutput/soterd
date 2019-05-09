@@ -11,8 +11,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/soteria-dag/soterd/rpcclient"
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/rpcclient"
+	"github.com/totaloutput/soterd/soterutil"
 	"github.com/davecgh/go-spew/spew"
 )
 

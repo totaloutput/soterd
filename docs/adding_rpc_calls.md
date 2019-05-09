@@ -1,8 +1,8 @@
 ## Adding RPC Calls
 
-Commit [e30eb31](https://github.com/soteria-dag/soterd/commit/e30eb319feb1d92bc286190633c47d288c9d7e9c) implemented the `getdagtips` RPC call, which you could refer to when making your own changes.
+Commit [e30eb31](https://github.com/totaloutput/soterd/commit/e30eb319feb1d92bc286190633c47d288c9d7e9c) implemented the `getdagtips` RPC call, which you could refer to when making your own changes.
 
-Commit [4e0d0b4](https://github.com/soteria-dag/soterd/commit/4e0d0b4c0c69ed3049d3cc66ef42068b3a9a7b71) shows how to add new entries to `rpcadapter.go`, to allow an RPC call to access information from other managers (like connection manager).
+Commit [4e0d0b4](https://github.com/totaloutput/soterd/commit/4e0d0b4c0c69ed3049d3cc66ef42068b3a9a7b71) shows how to add new entries to `rpcadapter.go`, to allow an RPC call to access information from other managers (like connection manager).
 
 These are the places that need updating when working with RPC calls:
 
@@ -29,5 +29,5 @@ These are the places that need updating when working with RPC calls:
 
 The integration tests are not normally run when `go test` is called, because they use [build tags (constraints)](https://golang.org/pkg/go/build/#hdr-Build_Constraints). The top of the file contains the current build tags, but at the time of writing the build tags for `integration/rpcserver_test.go` is `rpctest`. To run the integration tests for the rpc server, you can issue a `go test` command like this:
 ```shell
-go test -v -tags rpctest "github.com/soteria-dag/soterd/integration"
+go test -v -tags rpctest "github.com/totaloutput/soterd/integration"
 ```

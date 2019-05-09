@@ -8,8 +8,8 @@ package txscript
 import (
 	"testing"
 
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // TestBadPC sets the pc to a deliberately bad result then confirms that Step()

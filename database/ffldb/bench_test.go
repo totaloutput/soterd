@@ -10,9 +10,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/soteria-dag/soterd/chaincfg"
-	"github.com/soteria-dag/soterd/database"
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/chaincfg"
+	"github.com/totaloutput/soterd/database"
+	"github.com/totaloutput/soterd/soterutil"
 )
 
 // BenchmarkBlockHeader benchmarks how long it takes to load the mainnet genesis

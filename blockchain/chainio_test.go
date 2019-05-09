@@ -12,8 +12,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/soteria-dag/soterd/database"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/database"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // TestErrNotInMainChain ensures the functions related to errNotInMainChain work

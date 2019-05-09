@@ -9,7 +9,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/wire"
 )
 
 // TestParsePkScript ensures that the supported script types can be parsed

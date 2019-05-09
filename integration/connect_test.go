@@ -1,7 +1,7 @@
 // This file is ignored during the regular tests due to the following build tag.
 // +build rpctest p2p addrcache
 // You can run tests from this file in isolation by using the build tags, like so:
-// go test -v -count=1 -tags "p2p" github.com/soteria-dag/soterd/integration
+// go test -v -count=1 -tags "p2p" github.com/totaloutput/soterd/integration
 
 package integration
 
@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/soteria-dag/soterd/chaincfg"
-	"github.com/soteria-dag/soterd/integration/rpctest"
+	"github.com/totaloutput/soterd/chaincfg"
+	"github.com/totaloutput/soterd/integration/rpctest"
 )
 
 func TestConnection(t *testing.T) {

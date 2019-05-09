@@ -13,10 +13,10 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/soteria-dag/soterd/chaincfg"
-	"github.com/soteria-dag/soterd/database"
-	"github.com/soteria-dag/soterd/database/ffldb"
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/chaincfg"
+	"github.com/totaloutput/soterd/database"
+	"github.com/totaloutput/soterd/database/ffldb"
+	"github.com/totaloutput/soterd/soterutil"
 )
 
 // dbType is the database type name for this driver.

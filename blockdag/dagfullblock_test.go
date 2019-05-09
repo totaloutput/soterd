@@ -9,19 +9,19 @@ package blockdag_test
 import (
 	"bytes"
 	"fmt"
-	"github.com/soteria-dag/soterd/blockdag/fullblocktests"
+	"github.com/totaloutput/soterd/blockdag/fullblocktests"
 	"os"
 	"path/filepath"
 	"testing"
 
-	"github.com/soteria-dag/soterd/blockdag"
-	"github.com/soteria-dag/soterd/chaincfg"
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/database"
-	_ "github.com/soteria-dag/soterd/database/ffldb"
-	"github.com/soteria-dag/soterd/soterutil"
-	"github.com/soteria-dag/soterd/txscript"
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/blockdag"
+	"github.com/totaloutput/soterd/chaincfg"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/database"
+	_ "github.com/totaloutput/soterd/database/ffldb"
+	"github.com/totaloutput/soterd/soterutil"
+	"github.com/totaloutput/soterd/txscript"
+	"github.com/totaloutput/soterd/wire"
 )
 
 const (

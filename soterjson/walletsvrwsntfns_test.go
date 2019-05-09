@@ -12,7 +12,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/soteria-dag/soterd/soterjson"
+	"github.com/totaloutput/soterd/soterjson"
 )
 
 // TestWalletSvrWsNtfns tests all of the chain server websocket-specific

@@ -8,7 +8,7 @@ package addrmgr
 import (
 	"time"
 
-	"github.com/soteria-dag/soterd/wire"
+	"github.com/totaloutput/soterd/wire"
 )
 
 func TstKnownAddressIsBad(ka *KnownAddress) bool {

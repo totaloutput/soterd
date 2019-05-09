@@ -26,8 +26,8 @@ variable (either directly, or hidden in a library call).
          "fmt"
          "log"
 
-         "github.com/soteria-dag/soterd/soterutil"
-         "github.com/soteria-dag/soterd/chaincfg"
+         "github.com/totaloutput/soterd/soterutil"
+         "github.com/totaloutput/soterd/chaincfg"
  )
 
  var testnet = flag.Bool("testnet", false, "operate on the testnet Bitcoin network")

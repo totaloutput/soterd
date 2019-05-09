@@ -9,7 +9,7 @@ import (
 	"math"
 	"testing"
 
-	. "github.com/soteria-dag/soterd/soterutil"
+	. "github.com/totaloutput/soterd/soterutil"
 )
 
 func TestAmountCreation(t *testing.T) {

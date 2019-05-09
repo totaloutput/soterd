@@ -9,7 +9,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/soteria-dag/soterd/soterutil/bech32"
+	"github.com/totaloutput/soterd/soterutil/bech32"
 )
 
 // This example demonstrates how to decode a bech32 encoded string.

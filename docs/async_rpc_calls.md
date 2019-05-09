@@ -3,18 +3,18 @@ Synchronous vs Asyncronous RPC calls
 
 Each RPC call available through the [rpcclient](../rpcclient/README.md) package has two methods. A synchronous and asynchronous one.
 
-The asynchronous method issues the RPC call, and returns a [future](https://en.wikipedia.org/wiki/Futures_and_promises). The future [uses a go channel](https://github.com/soteria-dag/soterd/blob/bb8a8e4211b4cd51d48b2c0c1ee3b130666151c6/rpcclient/infrastructure.go#L792) to deliver the RPC call's response is returned on.
+The asynchronous method issues the RPC call, and returns a [future](https://en.wikipedia.org/wiki/Futures_and_promises). The future [uses a go channel](https://github.com/totaloutput/soterd/blob/bb8a8e4211b4cd51d48b2c0c1ee3b130666151c6/rpcclient/infrastructure.go#L792) to deliver the RPC call's response is returned on.
 
 The synchronous method calls the equivalent asynchronous method, and calls `Receive()` on the promise which:
 * blocks while waiting for a response on the channel
 * unmarshals the response into the _Result_ type associated with the call
 * Returns the result
 
-In general you'll proabably want to use the synchronous version of the RPC call, but in some cases (like in [integration tests](https://github.com/soteria-dag/soterd/blob/bb8a8e4211b4cd51d48b2c0c1ee3b130666151c6/integration/gen_dag_test.go#L101)) you may want to issue the same call to several nodes at the same time without waiting for the result of the first call. 
+In general you'll proabably want to use the synchronous version of the RPC call, but in some cases (like in [integration tests](https://github.com/totaloutput/soterd/blob/bb8a8e4211b4cd51d48b2c0c1ee3b130666151c6/integration/gen_dag_test.go#L101)) you may want to issue the same call to several nodes at the same time without waiting for the result of the first call. 
 
 ### Example
 
-Here is the implementation of the [Generate](https://github.com/soteria-dag/soterd/blob/bb8a8e4211b4cd51d48b2c0c1ee3b130666151c6/rpcclient/mining.go#L60) RPC call in `rpcclient`.
+Here is the implementation of the [Generate](https://github.com/totaloutput/soterd/blob/bb8a8e4211b4cd51d48b2c0c1ee3b130666151c6/rpcclient/mining.go#L60) RPC call in `rpcclient`.
 ```go
 // FutureGenerateResult is a future promise to deliver the result of a
 // GenerateAsync RPC invocation (or an applicable error).

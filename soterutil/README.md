@@ -56,7 +56,7 @@ To decode/encode an address:
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/soteria-dag/soterd/soterutil
+$ go get -u github.com/totaloutput/soterd/soterutil
 ```
 
 ## License

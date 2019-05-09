@@ -8,7 +8,7 @@ package base58_test
 import (
 	"fmt"
 
-	"github.com/soteria-dag/soterd/soterutil/base58"
+	"github.com/totaloutput/soterd/soterutil/base58"
 )
 
 // This example demonstrates how to decode modified base58 encoded data.

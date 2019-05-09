@@ -59,7 +59,7 @@ While soterd implements soter p2p protocol and an RPC protocol with overlapping 
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/soteria-dag/soterd/peer
+$ go get -u github.com/totaloutput/soterd/peer
 ```
 
 ## Examples
@@ -76,9 +76,9 @@ import (
     "net"
     "time"
 
-    "github.com/soteria-dag/soterd/chaincfg"
-    "github.com/soteria-dag/soterd/peer"
-    "github.com/soteria-dag/soterd/wire"
+    "github.com/totaloutput/soterd/chaincfg"
+    "github.com/totaloutput/soterd/peer"
+    "github.com/totaloutput/soterd/wire"
 )
 
 // mockRemotePeer creates a basic inbound peer listening on the simnet port for

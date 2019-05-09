@@ -12,7 +12,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/soteria-dag/soterd/soterjson"
+	"github.com/totaloutput/soterd/soterjson"
 )
 
 // TestWalletSvrCmds tests all of the wallet server commands marshal and

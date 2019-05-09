@@ -8,7 +8,7 @@ package bloom_test
 import (
 	"testing"
 
-	"github.com/soteria-dag/soterd/soterutil/bloom"
+	"github.com/totaloutput/soterd/soterutil/bloom"
 )
 
 // TestMurmurHash3 ensure the MurmurHash3 function produces the correct hash

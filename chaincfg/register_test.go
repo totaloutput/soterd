@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/soteria-dag/soterd/chaincfg"
+	. "github.com/totaloutput/soterd/chaincfg"
 )
 
 // Define some of the required parameters for a user-registered

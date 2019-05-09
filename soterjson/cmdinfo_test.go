@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/soteria-dag/soterd/soterjson"
+	"github.com/totaloutput/soterd/soterjson"
 )
 
 // TestCmdMethod tests the CmdMethod function to ensure it retunrs the expected

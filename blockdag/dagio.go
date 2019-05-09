@@ -13,10 +13,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/soteria-dag/soterd/chaincfg/chainhash"
-	"github.com/soteria-dag/soterd/database"
-	"github.com/soteria-dag/soterd/wire"
-	"github.com/soteria-dag/soterd/soterutil"
+	"github.com/totaloutput/soterd/chaincfg/chainhash"
+	"github.com/totaloutput/soterd/database"
+	"github.com/totaloutput/soterd/wire"
+	"github.com/totaloutput/soterd/soterutil"
 )
 
 const (
@@ -784,8 +784,14 @@ func dbPutUtxoView(dbTx database.Tx, view *UtxoViewpoint) error {
 			continue
 		}
 
-		// Remove the utxo entry if it is spent.
-		if entry.IsSpent() || entry.IsIgnored() {
+		// jenlouie: don't remove spent, later blocks might need them for validation
+		// should we keep track of if spent or not?, save flag in utxo entry object?
+		// delete ignored
+		if entry.IsSpent() {
+			continue
+		}
+
+		if entry.IsIgnored() {
 			key := outpointKey(outpoint)
 			err := utxoBucket.Delete(*key)
 			recycleOutpointKey(key)

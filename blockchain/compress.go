@@ -6,8 +6,8 @@
 package blockchain
 
 import (
-	"github.com/soteria-dag/soterd/soterec"
-	"github.com/soteria-dag/soterd/txscript"
+	"github.com/totaloutput/soterd/soterec"
+	"github.com/totaloutput/soterd/txscript"
 )
 
 // -----------------------------------------------------------------------------

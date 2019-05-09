@@ -14,7 +14,7 @@ report.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/soteria-dag/soterd/soterutil/coinset
+$ go get -u github.com/totaloutput/soterd/soterutil/coinset
 ```
 
 ## Usage
